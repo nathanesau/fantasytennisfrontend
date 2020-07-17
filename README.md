@@ -1,24 +1,13 @@
 # fantasytennisfrontend
 
-## Project setup
-```
-yarn install
-```
+## GitHub Pages Deployment Instructions
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+1. Create ``deploy.sh`` for building and pushing latest changes to gh-pages branch.
 
-### Compiles and minifies for production
-```
-yarn build
-```
+2. Create ``vue.config.js`` and add a publicPath property.
 
-### Lints and fixes files
-```
-yarn lint
-```
+3. In ``package.json`` add a homepage property.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+4. Push all the changes to the master branch.
+
+5. Run ``deploy.sh``.
